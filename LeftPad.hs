@@ -1,3 +1,4 @@
+module LeftPad(leftpad) where
 leftpad :: String -> Int -> Char -> String
 leftpad str len ch =
     if length str < len
